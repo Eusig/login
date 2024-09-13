@@ -1,0 +1,213 @@
+*{
+    background-color:rgb(230, 243, 255);
+}
+.user{
+    justify-content: center;
+    align-items: center;
+        width: 20%; 
+        height: auto;
+        
+        cursor: pointer; 
+        text-transform: uppercase; 
+      
+        border-radius: 0; 
+        transition: background-color 0.3s ease; 
+        margin-left: 200px; 
+        
+}
+.caixa {
+    background-color: white;
+    width: 600px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 90px; 
+    margin-top: 20px; 
+}
+
+.caixa-2 {
+    background-color: white;
+    width: 600px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 90px; 
+    margin-top: 20px; 
+}
+.check {
+    margin-left: 90px; 
+}
+.esqueceu {
+    margin-left: 335px; 
+}
+
+
+.button{
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 600px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+}
+
+
+     
+@media (min-width: 576px) { 
+    .user{
+        justify-content: center;
+    align-items: center;
+        width: 40%; 
+        height: auto;
+        padding: 0px 0px; 
+        cursor: pointer; 
+        text-transform: uppercase; 
+        margin-top: 170px; 
+        border-radius: 0; 
+        transition: background-color 0.3s ease; 
+        margin-left: 180px; 
+}
+.caixa {
+    background-color: white;
+    width: 530px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.login{
+    margin-left: 259px; 
+}
+.caixa-2 {
+    background-color: white;
+    width: 530px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.check {
+    margin-left: 30px; 
+}
+.esqueceu {
+    margin-left: 265px; 
+}
+
+
+.button{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 530px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+}
+
+}
+@media (min-width: 768px) { 
+    .user{
+        width: 40%; 
+        height: auto;
+        padding: 0px 0px; 
+        cursor: pointer; 
+        text-transform: uppercase; 
+        margin-top: 170px; 
+        border-radius: 0; 
+        transition: background-color 0.3s ease; 
+        margin-left: 220px; 
+}
+.caixa {
+    background-color: white;
+    width: 720px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.login{
+    margin-left: 330px; 
+}
+.caixa-2 {
+    background-color: white;
+    width: 720px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.check {
+    margin-left: 30px; 
+}
+.esqueceu {
+    margin-left: 455px; 
+}
+
+
+.button{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 720px; /* Largura do retângulo */
+    height: 50px; /* Altura do retângulo */
+}
+ }
+
+ @media (min-width: 992px) { 
+
+    .user{
+        width: 40%; 
+        height: auto;
+        padding: 0px 0px; 
+        cursor: pointer; 
+        text-transform: uppercase; 
+        margin-top: 170px; 
+        border-radius: 0; 
+        transition: background-color 0.3s ease; 
+        margin-left: 290px; 
+}
+.caixa {
+    background-color: white;
+    width: 930px; /* Largura do retângulo */
+    height: 70px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 21px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.login{
+    margin-left: 450px; 
+}
+.caixa-2 {
+    background-color: white;
+    width: 930px; /* Largura do retângulo */
+    height: 70px; /* Altura do retângulo */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 21px; /* Tamanho do texto dentro do retângulo */
+    font-family: Arial, sans-serif; /* Fonte usada para o texto */
+    margin-left: 30px; 
+    margin-top: 20px; 
+}
+.check {
+    margin-left: 30px; 
+    font-size: 21px;
+}
+.esqueceu {
+    margin-left: 585px; 
+    font-size: 21px;
+}
+
+
+.button{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 930px; /* Largura do retângulo */
+    height: 70px; /* Altura do retângulo */
+    font-size: 901px;
+}
+  }
