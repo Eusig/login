@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="loginbernardo.css">
+</head>
+
+<body class="bg-light">
+    <main class="container-fluid min-vh-100 d-flex flex-column flex-md-row align-items-center justify-content-center p-0">
+        
+        <section class="login-content">
+            <img src="user.png" alt="Logo" class="mb-3 logo">
+            <h1 class="h3 fw-bold text-center">Login</h1>
+            <form class="login-form d-flex flex-column align-items-center">
+                <input type="email" placeholder="Digite seu email..." class="form-control custom-width mt-3" required>
+                <input type="password" placeholder="Digite sua senha..." class="form-control custom-width mt-3" required>                
+                <div class="form-check mt-3 d-flex justify-content-between custom-input">
+                    <div>
+                        <div class="caixinha">
+                        <input type="checkbox" id="remember" class="caixa form-check-input">
+                        <label for="remember" class="lembrar form-check-label fw-bold">Lembrar senha?</label>
+                        </div>
+                    </div>
+                    <a href="#" class="esqueceu text-decoration-none text-primary">Esqueceu a senha?</a>
+                </div>
+                <button type="submit" class="acessar form-control custom-width mt-3">Acessar</button>
+            </form>
+            <div class="d-flex justify-content-center mt-3 custom-input">
+                <span>Não possui uma conta?</span>
+                <a href="#" class="text-decoration-none text-primary ms-1">Criar uma conta</a>
+            </div>
+        </section>
+
+        <section class="info-content bg-primary text-white d-none d-md-flex flex-column align-items-center justify-content-center">
+            <h1 class="domine text-center mb-0">Domine as <b>tecnologias mais buscadas</b> pelo mercado!</h1>
+            <img src="techs.png" alt="Techs" class="w-1 img-fluid">
+        </section>
+    </main>
+</body>
+</html>
